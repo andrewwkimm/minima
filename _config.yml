@@ -1,14 +1,15 @@
-title: Your awesome title
+title: Andrew Kim
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Andrew Kim
+  email: andrewkimka@gmail.com
+  github: https://github.com/andrewwkimm
+  linkedin: https://www.linkedin.com/in/andrew-sungsoo-kim/
+  twitter: https://twitter.com/andrewkimssk
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  A hub for a collection of musings, past work, and more for a New York based Software Engineer. 
 
 # Build settings
 
@@ -52,21 +53,38 @@ minima:
   #date_format: "%b-%d-%Y"
 
   # Generate social links in footer.
-  #social_links:
+  social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #  - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
-  #  - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+   - { 
+      platform: email,         
+      user_url: "andrewkimka@gmail.com",
+      username: "Email"
+    }
+   - { 
+      platform: github,         
+      user_url: "https://github.com/andrewwkimm",
+      username: "GitHub"
+    }
   #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #  - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
   #  - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
-  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+   - { 
+      platform: linkedin,       
+      user_url: "https://www.linkedin.com/in/andrew-sungsoo-kim/",
+      username: "LinkedIn"
+    }
   #  - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
   #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+   - {
+      platform: twitter,
+      user_url: "https://twitter.com/andrewkimssk",
+      username: Twitter, 
+    }
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
